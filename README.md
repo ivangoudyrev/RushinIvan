@@ -17,5 +17,5 @@ WorldB group contains all other guests and aqcuiaintances.
 Admin group is self-explanatory.
 
 # The following commands are for server managemenr
-/mv info [worldname]
+```/mv info [worldname]```
 
