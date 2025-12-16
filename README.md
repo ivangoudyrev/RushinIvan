@@ -17,7 +17,7 @@ WorldB group contains all other guests and aqcuiaintances.
 Admin group is self-explanatory.
 
 # The following commands are for world management
-List all words \n
+List all words \
 ```mv list```
 Get information for a specific world
 ```/mv info [world_name]```
