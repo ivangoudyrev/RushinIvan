@@ -33,3 +33,7 @@ Set the center for the world border \
 ```/mv worldborder center [x] [z] [world_name]``` \
 Set the world border \
 ```/mv worldborder set [radius] 0 [world_name]``` \
+
+# The following commands are for player management
+List all groups: \
+```/lp listgroups```
