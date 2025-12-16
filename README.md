@@ -18,9 +18,9 @@ Admin group is self-explanatory.
 
 # The following commands are for world management
 List all words \
-```mv list```
-Get information for a specific world
-```/mv info [world_name]```
+```/mv list``` \
+Get information for a specific world \
+```/mv info [world_name]``` \
 
 Set the world alias
 ```/mv modify [world_name] set alias [alias_name]```
