@@ -17,25 +17,19 @@ WorldB group contains all other guests and aqcuiaintances.
 Admin group is self-explanatory.
 
 # The following commands are for world management
-List all words \
+List all words: \
 ```/mv list``` \
-Get information for a specific world \
+Get information for a specific world: \
 ```/mv info [world_name]``` \
-
-Set the world alias
-```/mv modify [world_name] set alias [alias_name]```
-
-Set the world to spawn animals or monsters
-```/mv entity-spawn-config modify [world_name] [animal/monster/etc.] set spawn [true/false]```
-
-Freeze the world time or weather
-```/mv gamerule set minecraft:[advance_time/advance_weather] [true/false] [world_name]```
-
-Set the world spawn point
-```/mvsetspawn [world_name]:[x],[y],[z]```
-
-Set the center for the world border
-```/mv worldborder center [x] [z] [world_name]```
-
-Set the world border
-```/mv worldborder set [radius] 0 [world_name]```
+Set the world alias: \
+```/mv modify [world_name] set alias [alias_name]``` \
+Set the world to spawn animals or monsters \
+```/mv entity-spawn-config modify [world_name] [animal/monster/etc.] set spawn [true/false]``` \
+Freeze the world time or weather \
+```/mv gamerule set minecraft:[advance_time/advance_weather] [true/false] [world_name]``` \
+Set the world spawn point \
+```/mvsetspawn [world_name]:[x],[y],[z]``` \
+Set the center for the world border \
+```/mv worldborder center [x] [z] [world_name]``` \
+Set the world border \
+```/mv worldborder set [radius] 0 [world_name]``` \
