@@ -21,13 +21,17 @@ RushinIvan world is a copy the RushinIvan world from Minecraft Realms, and is op
 WorldB is a regular world, open to all users.
 
 ## User Groups
-The server contains three groups: 1) WorldA, 2) WorldB, and 3) Admin.
+The server contains three groups: 
+- WorldA: contains all family members from the "Minecrafters" group chat.
+- WorldB: contains all other guests.
+- Admin.
 
-WorldA group contains all family members from the "Minecrafters" group chat.
+### User Management Commands
+Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
 
-WorldB group contains all other guests. 
+User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands:
 
-Admin group is self-explanatory.
+
 
 # The following commands are for world management
 List all words: \
