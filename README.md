@@ -7,9 +7,10 @@ The server contains three worlds:
 The Hub is simply an initial landing place for all new players assigned to the "RushinIvan" and "Admin" user groups. The Hub is a peaceful 64x64-block world, without ability to break or place things. It's always daytime and weather is always sunny in the Hub.  
 The Hub contains a spawning platform, where users will spawn initially, and portals to other worlds. Each portal is labeled with its destination; at this time there are only two: one portal leads to the RushinIvan world and the other portal leads to WorldB.
 
-WorldA is a copy the RushinIvan world from the Realms. Only approved family members are allowed into this world by being assigned to group WorldA. 
+RushinIvan world is a copy the RushinIvan world from Minecraft Realms, and is open to players in the WorldA user group. The difficulty is set to hard, it has normal daylight and weather cycles
+[insert world settings here]
 
-WorldB is a regular world. Only approved friends are allowed into this world and all family members within GroupA.
+WorldB is a regular world, open to all users.
 
 # Groups
 The server contains three groups: 1) WorldA, 2) WorldB, and 3) Admin.
