@@ -32,8 +32,8 @@ Users inherit permissions from the groups they are assigned to.  In other words,
 User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used user management commands (note, each command must be prefaced by '/' in the game chat box):
 
 Add a new user to a user group, which gives them permission to access the worlds:  
-Lookup the user's UUID at ```https://mcprofile.io/```; use floodgate UUID for Bedrock players and 
-```lp user <UUID>
+Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use floodgate UUID for Bedrock players)
+```lp user <UUID> parent add <group name>
 
 # The following commands are for world management
 List all words: \
