@@ -33,6 +33,7 @@ User permissions are managed using the LuckPerms plugin commands. The complete l
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
 Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use floodgate UUID for Bedrock players)
+
 ```lp user <UUID> parent add <group name>```
 
 
