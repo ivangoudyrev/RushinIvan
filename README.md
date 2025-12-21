@@ -1,5 +1,5 @@
 ## Server Configuration
-- Minecraft Paper
+- Minecraft Paper 1.21.11
 - LuckPerms plugin
 - Multiverse-Core plugin
 - Multiverse-Portals plugin
