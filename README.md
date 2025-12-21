@@ -72,7 +72,10 @@ There are many nodes that represent different permissions. For example, a node `
 ```lp group <group name> rename <new group name>```
 
 ### World Management Commands
-Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
+The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages for a full list of commands:  
+- https://mvplugins.org/core/
+- https://mvplugins.org/portals/
+- https://mvplugins.org/netherportals/
 
 ### Permissions
 
