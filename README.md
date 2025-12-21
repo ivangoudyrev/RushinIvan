@@ -82,7 +82,7 @@ The Multiverse plugins, installed in this server, allow us to combine multiple w
 ```mv entity-spawn-config info <world name>```
 
 - Modify a world's entity spawning property (permission ```multiverse.core.entityspawnconfig.modify```):  
-```mv entity-spawn-config modify <world name> <entity name like MONSTER> <set or add or remove> <property like spawn> <value like true or false>```
+```mv entity-spawn-config modify <world name> <entity name like MONSTER> <set or add or remove> <property like spawn> <value like true or false>```   
 Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
 
 - Set the respawn point for the current world (permission ```multiverse.core.spawn.set```):  
