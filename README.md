@@ -29,7 +29,7 @@ The server contains three groups:
 ### User Management Commands
 Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
 
-User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands (note, each command must be prefaced by '/' in the game chat box, and Bedrock user named must be prefixed with '.'):
+User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands (note, each command must be prefaced by ```/``` in the game chat box, and Bedrock user named must be prefixed with ```.```):
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
 Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players):  
