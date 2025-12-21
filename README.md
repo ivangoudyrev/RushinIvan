@@ -44,6 +44,14 @@ Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the com
 - Lookup group's assigned permissions:  
 ```lp group <group name> permission info```
 
+- Add permissions to a group:  
+```lp group <group name> permission set <node> <true/false> [context...]```
+There are many nodes that represent different permissions. For example, a node ```luckperms.*``` is used to allow access to all LuckPerms commands.  Setting the value to ```true``` grants the permission and ```false``` explicitly denies it. See permissions below for the full list of nodes.
+
+- Remove permissions from a group:  
+```lp group <group name> permission unset <node> [context...]```
+
+
 - Lookup user's assigned permissions (Note: our policy is to assign permissions to groups, not individual users. Use this command only as a test or an exception to the rule):  
 ```lp user <user name> permission info```
 
