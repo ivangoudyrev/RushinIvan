@@ -113,14 +113,14 @@ multiverse.teleport.other.NAME```):
 ```mv spawn <user name>``` teleports a user to the current word's spawn point
 
 - Displays who is in which world (permission ```multiverse.core.list.who```):  
-```mv who <world name> -a```
+```mv who <world name>```   
+```mv whoall```
 
 - Removes specified entities from a particular world (permission ```multiverse.core.purge```):  
 ```mv purge-entities <world name> <mob name or category (like CREEPER, ZOMBIE, PIG, animals, monsters)>```
 
 - Modify a world property (permission ```multiverse.core.modify```):  
 ```mv modify set <property name> <value>```
-for example:
+Example:
 ```mv modify set animals false```
 ```mv modify set pvp true <world name>```   
-```mv spawn <user name>``` teleports a user to the current word's spawn point
