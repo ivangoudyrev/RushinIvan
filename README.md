@@ -2,7 +2,7 @@
 - Minecraft Paper
 - [List plugins]
 
-## Minecraft Multiverse Worlds
+## RushinIvan Server Overview
 The Minecraft Server contains three worlds:
 - Hub
 - RushinIvan
