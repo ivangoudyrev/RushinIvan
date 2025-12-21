@@ -29,15 +29,23 @@ The server contains three groups:
 ### User Management Commands
 Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
 
-User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used user management commands (note, each command must be prefaced by '/' in the game chat box):
+User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used user management commands (note, each command must be prefaced by '/' in the game chat box, and Bedrock user named must be prefixed with '.'):
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
 Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use floodgate UUID for Bedrock players):  
 ```lp user <UUID> parent add <group name>```
 
 - Remove a user from the assigned user group. There is no need to look up the UUID again. You should be able to enter the user's name instead (add a '.' prefix for Bedrock players):  
-```lp user <UUID> parent remove <group name>```
+```lp user <user name> parent remove <group name>```
 
+- Lookup user's information, including assigned groups:  
+```lp user <user name> info```
+
+- Lookup group's assigned permissions:  
+```lp group <group name> permission info```
+
+- Lookup user's assigned permissions (Note: our policy is to assign permissions to groups, not individual users. Use this command only as a test or an exception to the rule):  
+```lp user <user name> permission info```
 
 # The following commands are for world management
 List all words: \
