@@ -35,7 +35,7 @@ User permissions are managed using the LuckPerms plugin commands. The complete l
 Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players):  
 ```lp user <UUID> parent add <group name>```
 
-- Remove a user from the assigned user group. There is no need to look up the UUID again. You should be able to enter the user's name instead (add a ```'.'``` prefix for Bedrock players, like ```.rushinivan```):  
+- Remove a user from the assigned user group. There is no need to look up the UUID again. You should be able to enter the user's name instead (add a ```.``` prefix for Bedrock players, like ```.rushinivan```):  
 ```lp user <user name> parent remove <group name>```
 
 - Lookup user's information, including assigned groups:  
