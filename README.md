@@ -85,6 +85,14 @@ The Multiverse plugins, installed in this server, allow us to combine multiple w
 ```mv entity-spawn-config modify <world name> <entity name like MONSTER> <set or add or remove> <property like spawn> <value like true or false>```   
 Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
 
+- List the vanilla game rules that are configured for the world (permission ```multiverse.core.gamerule.list```):  
+```mv gamerule list <world name>```
+
+- Modify a world's game rule property (permission ```multiverse.core.gamerule.set```):  
+```mv gamerule set <gamerule> <value> <world name>```   
+Example: ```mv gamerule set doDaylightCycle false hub```
+
+
 - Set the respawn point for the current world (permission ```multiverse.core.spawn.set```):  
 ```mv set spawn```
 
