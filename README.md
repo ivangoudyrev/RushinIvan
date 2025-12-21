@@ -32,7 +32,7 @@ Users inherit permissions from the groups they are assigned to.  In other words,
 User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands (note, each command must be prefaced by '/' in the game chat box, and Bedrock user named must be prefixed with '.'):
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
-Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use floodgate UUID for Bedrock players):  
+Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players):  
 ```lp user <UUID> parent add <group name>```
 
 - Remove a user from the assigned user group. There is no need to look up the UUID again. You should be able to enter the user's name instead (add a '.' prefix for Bedrock players):  
