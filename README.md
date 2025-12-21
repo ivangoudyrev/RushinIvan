@@ -75,7 +75,10 @@ There are many nodes that represent different permissions. For example, a node `
 ### World Management Commands
 The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages ([Multiverse-Core Wiki](https://mvplugins.org/core/fundamentals/commands-usage/), [Multiverse-Portals Wiki](https://mvplugins.org/portals/fundamentals/commands-usage/), [Multiverse-NetherPortals Wiki](https://mvplugins.org/netherportals/fundamentals/commands-usage/)) for a full list of commands:
 
-- Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
+- List all worlds on the server (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
+```mv list```
+
+- Get information about a specific world (permission ```multiverse.core.list.worlds```):  
 ```mv info <world name>```
 
 - Get information about a world's entity spawning (mosters, animals, etc.) (permission ```multiverse.core.entityspawnconfig.info```):  
@@ -89,8 +92,8 @@ Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
 ```mv gamerule list <world name>```
 
 - Modify a world's game rule property (permission ```multiverse.core.gamerule.set```):  
-```mv gamerule set <gamerule> <value> <world name>```
-Example: ```mv gamerule set minecraft:advance_time false hub```
+```mv gamerule set <gamerule> <value> <world name>```   
+Example: ```mv gamerule set minecraft:advance_time false hub```   
 List of useful properties:
 ```minecraft:spawn_monsters```
 ```minecraft:spawn_mobs```
