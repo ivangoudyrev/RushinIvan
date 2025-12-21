@@ -72,7 +72,7 @@ There are many nodes that represent different permissions. For example, a node `
 ```lp group <group name> rename <new group name>```
 
 ### World Management Commands
-The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages ([Multiverse-Core Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference), [Multiverse-Portals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals)), [Multiverse-NetherPortals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals))) for a full list of commands: .
+The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages ([Multiverse-Core Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference), [Multiverse-Portals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals)), [Multiverse-NetherPortals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals))) for a full list of commands:
 
 - Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
 ```mv info <world name>```
@@ -89,7 +89,8 @@ multiverse.teleport.other.NAME```):
 - Displays who is in which world (permission ```multiverse.core.list.who```):  
 ```mv who <world name> -a```
 
-
+- Removes specified entities from a particular world (permission ```multiverse.core.purge```):  
+```mv purge-entities <world name> <mob name or category (like CREEPER, ZOMBIE, PIG, animals, monsters)>```
 
 
 ### Permissions
