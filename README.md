@@ -1,6 +1,10 @@
 ## Server Configuration
 - Minecraft Paper
-- [List plugins]
+- LuckPerms plugin
+- Multiverse-Core plugin
+- Multiverse-Portals plugin
+- Multiverse-NetherPortals plugin
+- WorldEdit plugin
 
 ## RushinIvan Server Overview
 The Minecraft Server contains three worlds:
@@ -126,3 +130,26 @@ multiverse.teleport.other.NAME```):
 Example:
 ```mv modify set animals false```
 ```mv modify set pvp true <world name>```   
+
+#### Multiverse-Portals
+- List all portals (permission ```multiverse.portal.list```):
+```mvp list```
+
+- Display information about a portal (permission ```multiverse.portal.info```):
+```mvp info <portal name>```
+
+- Select a portal so you can perform multiple modifications on it (permission: ```multiverse.portal.select```):
+```mvp select <portal name>```
+
+- Gives a Portal Creation Wand (wooden axe by default) used to select areas for portal creation.
+  Note: This command doesn't work because we are using WorldEdit plugin over top. (permission ```multiverse.portal.givewand```):
+  ```mvp wand```
+
+- Create a portal (permission ```multiverse.portal.create```):
+```mvp create <portal name> <destination>```
+
+- Remove a portal (permission ```multiverse.portal.remove```):
+- ```mvp remove <portal name>```
+
+#### Multiverse-NetherPortals
+  
