@@ -90,9 +90,7 @@ Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
 
 - Modify a world's game rule property (permission ```multiverse.core.gamerule.set```):  
 ```mv gamerule set <gamerule> <value> <world name>```
-
 Example: ```mv gamerule set minecraft:advance_time false hub```
-
 List of useful properties:
 ```minecraft:spawn_monsters```
 ```minecraft:spawn_mobs```
