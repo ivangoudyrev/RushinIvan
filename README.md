@@ -34,7 +34,8 @@ User permissions are managed using the LuckPerms plugin commands. The complete l
 - IMPORTANT!: After making changes to user permissions during a running game, you must run ```lp sync``` for permission changes to take effect.
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
-Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players):  
+To add a brand new user, lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players).
+To add a user who was previously added to the server, use the user name:  
 ```lp user <UUID> parent add <group name>```
 
 - Remove a user from the assigned user group. There is no need to look up the UUID again. You should be able to enter the user's name instead (add a ```.``` prefix for Bedrock players, like ```.rushinivan```):  
@@ -82,8 +83,8 @@ The Multiverse plugins, installed in this server, allow us to combine multiple w
 
 - Teleport to a different world (permissions ```multiverse.teleport.self.NAME,
 multiverse.teleport.other.NAME```):  
-```mv tp <world name>```
-```mv tp <user name> <world name>```
+```mv tp <world name>```   
+```mv tp <user name> <world name>```   
 ```mv spawn <user name>``` teleports a user to the current word's spawn point
 
 - Displays who is in which world (permission ```multiverse.core.list.who```):  
@@ -91,6 +92,13 @@ multiverse.teleport.other.NAME```):
 
 - Removes specified entities from a particular world (permission ```multiverse.core.purge```):  
 ```mv purge-entities <world name> <mob name or category (like CREEPER, ZOMBIE, PIG, animals, monsters)>```
+
+- Modify a world property (permission ```multiverse.core.modify```):  
+```mv modify set <property name> <value>```
+for example:
+```mv modify set animals false```
+```mv modify set pvp true <world name>```   
+```mv spawn <user name>``` teleports a user to the current word's spawn point
 
 
 ### Permissions
