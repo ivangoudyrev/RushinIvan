@@ -34,7 +34,7 @@ User permissions are managed using the LuckPerms plugin commands. The complete l
 - IMPORTANT!: After making changes to user permissions during a running game, you must run ```lp sync``` for permission changes to take effect.
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
-To add a brand new user, lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players).
+To add a new user, lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players).
 To add a user who was previously added to the server, use the user name:  
 ```lp user <UUID> parent add <group name>```
 
@@ -73,7 +73,7 @@ There are many nodes that represent different permissions. For example, a node `
 ```lp group <group name> rename <new group name>```
 
 ### World Management Commands
-The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages ([Multiverse-Core Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference), [Multiverse-Portals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals)), [Multiverse-NetherPortals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals))) for a full list of commands:
+The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages ([Multiverse-Core Wiki](https://mvplugins.org/core/fundamentals/commands-usage/), [Multiverse-Portals Wiki](https://mvplugins.org/portals/fundamentals/commands-usage/), [Multiverse-NetherPortals Wiki](https://mvplugins.org/netherportals/fundamentals/commands-usage/)) for a full list of commands:
 
 - Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
 ```mv info <world name>```
