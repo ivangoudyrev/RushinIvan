@@ -77,6 +77,24 @@ The Multiverse plugins, installed in this server, allow us to combine multiple w
 - https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals)
 - https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals)
 
+- Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
+```mv info <world name>```
+
+- Set the respawn point for the current world (permission ```multiverse.core.spawn.set```):  
+```mv set spawn```
+
+- Teleport to a different world (permissions ```multiverse.teleport.self.NAME,
+multiverse.teleport.other.NAME```):  
+```mv tp <world name>```
+```mv tp <user name> <world name>```
+```mv spawn <user name>``` teleports a user to the current word's spawn point
+
+- Displays who is in which world (permission ```multiverse.core.list.who```):  
+```mv who <world name> -a```
+
+
+
+
 ### Permissions
 
 
