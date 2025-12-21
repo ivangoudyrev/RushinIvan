@@ -51,9 +51,17 @@ There are many nodes that represent different permissions. For example, a node `
 - Remove permissions from a group:  
 ```lp group <group name> permission unset <node> [context...]```
 
-
-- Lookup user's assigned permissions (Note: our policy is to assign permissions to groups, not individual users. Use this command only as a test or an exception to the rule):  
+- Lookup user's assigned permissions (Note: our policy is to assign permissions to groups, not individual users, so this command should not produce any results. Use this command only as a test or an exception to the rule):  
 ```lp user <user name> permission info```
+
+- Add permissions to a user:  
+```lp user <user name> permission set <node> <true/false> [context...]```    
+
+- Remove permissions from a user:  
+```lp user <user name> permission unset <node> [context...]```
+
+### Permissions
+
 
 # The following commands are for world management
 List all words: \
