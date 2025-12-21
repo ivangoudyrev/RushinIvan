@@ -29,7 +29,7 @@ The server contains three groups:
 ### User Management Commands
 Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
 
-User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands (note, each command must be prefaced by ```/``` in the game chat box, and Bedrock user named must be prefixed with ```.```):
+User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at [LuckPerms Wiki](https://luckperms.net/wiki/Command-Usage). The following are frequently used commands (note, each command must be prefaced by ```/``` in the game chat box, and Bedrock user named must be prefixed with ```.```):
 
 - IMPORTANT!: After making changes to user permissions during a running game, you must run ```lp sync``` for permission changes to take effect.
 
@@ -74,8 +74,8 @@ There are many nodes that represent different permissions. For example, a node `
 ### World Management Commands
 The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages for a full list of commands:  
 - [Multiverse-Core Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference)
-- https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals)
-- https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals)
+- [Multiverse-Portals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(Portals))
+- [Multiverse-NetherPortals Wiki](https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-(NetherPortals))
 
 - Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
 ```mv info <world name>```
