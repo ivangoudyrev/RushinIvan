@@ -95,12 +95,12 @@ Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
 ```mv gamerule set <gamerule> <value> <world name>```   
 Example: ```mv gamerule set minecraft:advance_time false hub```   
 List of useful properties:
-```minecraft:spawn_monsters```
-```minecraft:spawn_mobs```
-```minecraft:pvp```
-```minecraft:advance_weather```
-```minecraft:advance_time```
-```minecraft:keep_inventory```
+```minecraft:spawn_monsters```   
+```minecraft:spawn_mobs```   
+```minecraft:pvp```   
+```minecraft:advance_weather```   
+```minecraft:advance_time```   
+```minecraft:keep_inventory```   
 
 
 - Set the respawn point for the current world (permission ```multiverse.core.spawn.set```):  
