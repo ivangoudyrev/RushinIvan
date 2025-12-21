@@ -62,6 +62,18 @@ There are many nodes that represent different permissions. For example, a node `
 - Remove permissions from a user:  
 ```lp user <user name> permission unset <node> [context...]```
 
+- List user groups on the server:  
+```lp listgroups```
+
+- List users assigned to the user group:  
+```lp group <group name> listmembers```
+
+- Rename a user group:  
+```lp group <group name> rename <new group name>```
+
+### World Management Commands
+Users inherit permissions from the groups they are assigned to.  In other words, instead of assigning permissions to each user, we pre-assign permissions to the groups and then place users in them.
+
 ### Permissions
 
 
