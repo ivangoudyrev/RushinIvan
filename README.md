@@ -31,7 +31,7 @@ Users inherit permissions from the groups they are assigned to.  In other words,
 
 User permissions are managed using the LuckPerms plugin commands. The complete list of commands is available at https://luckperms.net/wiki/Command-Usage. The following are frequently used commands (note, each command must be prefaced by ```/``` in the game chat box, and Bedrock user named must be prefixed with ```.```):
 
-- IMPORTANT!: After making changes to user permissions during a running game, you must run ```lp sync``` to refresh of the currently loaded permissions.
+- IMPORTANT!: After making changes to user permissions during a running game, you must run ```lp sync``` for permission changes to take effect.
 
 - Add a new user to a user group, which gives them permission to access the worlds:  
 Lookup the user's UUID at ```https://mcprofile.io/``` and insert it into the command below (use Floodgate UUID for Bedrock players):  
