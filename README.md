@@ -78,6 +78,13 @@ The Multiverse plugins, installed in this server, allow us to combine multiple w
 - Get information about a specific world (user must have permission ```multiverse.core.list.worlds``` to be able to run this command):  
 ```mv info <world name>```
 
+- Get information about a world's entity spawning (mosters, animals, etc.) (permission ```multiverse.core.entityspawnconfig.info```):  
+```mv entity-spawn-config info <world name>```
+
+- Modify a world's entity spawning property (permission ```multiverse.core.entityspawnconfig.modify```):
+```mv entity-spawn-config modify <world name> <entity name like MONSTER> <set or add or remove> <property like spawn> <value like true or false>```
+Example: ```mv entity-spawn-config modify hub MONSTER set spawn false```
+
 - Set the respawn point for the current world (permission ```multiverse.core.spawn.set```):  
 ```mv set spawn```
 
