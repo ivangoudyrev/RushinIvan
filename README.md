@@ -74,7 +74,7 @@ There are many nodes that represent different permissions. For example, a node `
 ### World Management Commands
 The Multiverse plugins, installed in this server, allow us to combine multiple worlds into a multiverse of connected worlds. The Multiverse-Core plugin controls mob spawning, environment type and other functions. The Multiverse-Portals plugin allows us to create portals for users to easily move between worlds. The Multiverse-NetherPortals plugin allows us to customize how different worlds integrate with their Nether sub-worlds. The following sections provide basic commands for these plugins. Please refer to the plugin wiki pages for a full list of commands:  
 - https://mvplugins.org/core/
-- https://mvplugins.org/portals/
+- https://github.com/Multiverse/Multiverse-Core/wiki/Command-Reference-%28Portals%29
 - https://mvplugins.org/netherportals/
 
 ### Permissions
